@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zvezdy"
+    tools:context=".CreateName">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/myfon"
+            android:lineSpacingExtra="8sp"
+            android:padding="20dp"
+            android:text="Ну привет, сказочник, ты уже решил, как мы будем называть главного персонажа?"
+            android:textColor="#193460"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/myfon"
+            android:ems="10"
+            android:hint="Пример: Храбрый рыцарь, Снегурочка или Артем..."
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textAllCaps="false"
+            android:textColor="#193460"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/buttongo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/myfon"
+            android:padding="20dp"
+            android:text="Продолжить ->>"
+            android:textColor="#193460"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

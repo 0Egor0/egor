@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zvezdy"
+    tools:context=".History">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/myfon"
+            android:lineSpacingExtra="8sp"
+            android:padding="30dp"
+            android:text="А вот здесь будут сохраняться твои истории. Если я не успею доделать эту часть программы, посмотрите на котика и листайте другие вкладки."
+            android:textAlignment="center"
+            android:textColor="#193460"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cat" />
+
+        <Button
+            android:id="@+id/Meow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/myfon"
+            android:paddingLeft="25dp"
+            android:text="Мяу!"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#193460"
+            android:textStyle="italic" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
